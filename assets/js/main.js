@@ -21,3 +21,19 @@ document.addEventListener('keydown', (e) => {
     toggle.focus();
   }
 });
+
+// ===== Caso de estudio (modal) =====
+document.querySelectorAll('[data-case-study]').forEach((button) => {
+  const dialog = document.getElementById(button.dataset.caseStudy);
+  button.addEventListener('click', () => dialog.showModal());
+});
+
+document.querySelectorAll('dialog').forEach((dialog) => {
+  dialog.querySelectorAll('[data-close]').forEach((btn) => {
+    btn.addEventListener('click', () => dialog.close());
+  });
+  // Cerrar al hacer clic en el fondo oscuro
+  dialog.addEventListener('click', (e) => {
+    if (e.target === dialog) dialog.close();
+  });
+});
