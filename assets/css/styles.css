@@ -59,6 +59,10 @@ section[id] { scroll-margin-top: calc(var(--header-h) + var(--space-4)); }
   letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--color-primary);
 }
+#skills.section, #experience.section { padding-block: var(--space-12); }
+#skills h2, #experience h2 { font-size: var(--text-xl); }
+#skills .eyebrow, #experience .eyebrow { font-size: 0.625rem; }
+#skills .section__intro { font-size: 0.75rem; }
 .visually-hidden {
   position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
@@ -171,6 +175,10 @@ section[id] { scroll-margin-top: calc(var(--header-h) + var(--space-4)); }
 
 /* ===== GRILLAS, TARJETAS Y CHIPS ===== */
 .grid { display: grid; gap: var(--space-6); margin-top: var(--space-8); }
+.grid--skills { gap: var(--space-4); margin-top: var(--space-6); }
+.grid--skills .card { padding: var(--space-4); border-radius: 8px; }
+.grid--skills .card h3 { margin-bottom: var(--space-1); font-size: var(--text-sm); }
+.grid--skills .card p { margin-bottom: var(--space-2); font-size: 0.6875rem; line-height: 1.5; }
 .card {
   padding: var(--space-6);
   background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius);
@@ -183,6 +191,8 @@ section[id] { scroll-margin-top: calc(var(--header-h) + var(--space-4)); }
   font-size: var(--text-sm); font-weight: 500;
   color: var(--color-primary-hover); background: var(--color-primary-soft); border-radius: 999px;
 }
+.grid--skills .chips { gap: var(--space-1); }
+.grid--skills .chips li { padding: 2px var(--space-2); font-size: 0.5625rem; }
 @media (min-width: 768px) {
   .grid--skills { grid-template-columns: repeat(2, 1fr); }
 }
@@ -238,9 +248,9 @@ body:has(dialog[open]) { overflow: hidden; }
   width: 12px; height: 12px; border-radius: 50%;
   background: var(--color-primary); box-shadow: 0 0 0 4px var(--color-bg);
 }
-.timeline__period { margin: 0; font-size: var(--text-sm); font-weight: 600; color: var(--color-primary); }
-.timeline h3 { margin: var(--space-1) 0 var(--space-2); font-size: var(--text-lg); }
-.timeline ul { margin: 0; padding-left: var(--space-6); color: var(--color-muted); }
+.timeline__period { margin: 0; font-size: 0.625rem; font-weight: 600; color: var(--color-primary); }
+.timeline h3 { margin: var(--space-1) 0 var(--space-1); font-size: 0.875rem; }
+.timeline ul { margin: 0; padding-left: var(--space-4); color: var(--color-muted); font-size: 0.6875rem; line-height: 1.5; }
 
 /* ===== SOBRE MÍ ===== */
 .about { display: grid; gap: var(--space-8); align-items: center; }
