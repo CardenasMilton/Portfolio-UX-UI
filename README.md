@@ -54,9 +54,9 @@ El detalle completo está en `docs/proceso-ux.md` y en el archivo de Figma. Resu
 6. **Design system** en Figma: colores, tipografía, espaciado y componentes.
 7. **Prototipo** de alta fidelidad para mobile (con menú cerrado y abierto) y desktop.
 8. **Validación:** prueba de usabilidad con 3 personas. Comentarios de prueba y correcciones: 
-    1. Cremona Emma: Logro llegar bien a los proyectos sin problemas, entendio lo que estudio de manera sencilla, el deslizamiento del contacto le sirvio, considera que esta ordenado y se ve bien.
-    2. Rapallini Facundo:Logro acceder a todo bien, aunque comentó que se ve algo desordenado, hay letras chicas lo cual se buscaria corregir y un boton nuevo que te mande a la formacion 
-    3. Dumrauf Tomas:No tuvo problemas en deslizarse hacia las secciones que queria, tambien comenta que buscaria cambiar el fondo, pero que esta bueno que puedas leer todo directamente o buscar por partes lo que necesites de manera rapida 
+    1. Emma: Logro llegar bien a los proyectos sin problemas, entendio lo que estudio de manera sencilla, el deslizamiento del contacto le sirvio, considera que esta ordenado y se ve bien.
+    2. Facundo:Logro acceder a todo bien, aunque comentó que se ve algo desordenado, hay letras chicas lo cual se buscaria corregir y un boton nuevo que te mande a la formacion 
+    3. Tomas:No tuvo problemas en deslizarse hacia las secciones que queria, tambien comenta que buscaria cambiar el fondo, pero que esta bueno que puedas leer todo directamente o buscar por partes lo que necesites de manera rapida 
 
 ## Design system (resumen)
 
